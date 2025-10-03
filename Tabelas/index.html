@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table td, table th{
+            border: 1px solid rgb(103, 103, 116);
+            padding: 5px;
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        boyd{
+            font-family: sans-serif;
+        }
+        table caption{
+            font-size: 14px;
+            caption-side: bottom;
+            text-align: left;
+            font-style: italic;
+            margin-top: 7px;
+        }
+        tfoot td{
+            background-color: #ddd;
+        }
+        #responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div id="responsive-table">
+    <table>
+        <caption> ITENS DE COMPRA</caption>
+        <thead>
+            <tr>
+                <th>Título 1</th>
+                <th>Título 2</th>
+                <th>Título 3</th>
+            </tr>
+        </thead>
+        <tboyd>
+            <tr>
+                <td> ITEM 1</td>
+                <td> ITEM 2</td>
+                <td> ITEM 3</td>
+            </tr>
+            <tr>
+                <td colspan="2"  > ITEM 4</td>
+                <td>ITEM 6</td>
+            </tr>
+            <tr>
+               
+                <td> ITEM 7</td>
+                <td> ITEM 8</td>
+                <td> ITEM 9</td>
+            </tr>
+        </tboyd>
+        <tfoot>
+            <tr>
+                <td rowspan="2" colspan="2"> </td>
+                
+                <td> Total: </td>
+            </tr>
+                <tr>
+                 <td> R$123,00</td>
+                </tr>
+        </tfoot>
+    </table>
+    </div>
+</body>
+</html>
