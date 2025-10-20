@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body div section p,
+body div section h1 {
+    background-color: orange;
+}
+
+.classe1{
+    background-color: yellowgreen;
+}
+
+div.main-content{
+    font-style: italic;
+    background-color: aqua;
+    font-weight: 100;
+}
+
+.main-content .sub-content{
+    background-color: pink;
+}
+
+.pai h1+p{
+  color: pink;
+}
+
+.pai {
+    background-color: teal;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+body div p section h1 p {
+    background-color: tomato;
+}
+
+.pai h1~p{
+    size-adjust: initial;
+    font-style: normal;
+    font-weight: 200px;
+}
+[meu-atributo = "valor"]{
+    color: blue;
+}
