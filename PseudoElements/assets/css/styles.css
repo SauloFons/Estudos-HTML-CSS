@@ -1,0 +1,32 @@
+ul li::after{
+    content: '-';
+    background-color: red;
+    display: block;
+
+}
+ul li::before{
+    content: '-';
+    background-color: blue;
+    display: block;
+}
+
+p::first-letter{
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line{
+    background-color: aqua;
+}
+
+p::selection{
+    background-color: black;
+    color: white;
+}
+
+::placeholder{
+    background-color: bisque;
+    color: red;
+}
